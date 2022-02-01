@@ -1,0 +1,362 @@
+{
+  "title": "LKIM IAI Asadiyah",
+  "description": "Official Web App UKM Lembaga Kajian Ilmiah Mahasiswa (LKIM) IAI Asadiyah Sengkang dengan menyajikan profil organisasi, berita faktual, artikel karya anggota, dan agenda kegiatan",
+  "image": "images/social-share.jpg",
+  "keywords": "lkim, asadiyah, iai, iaia, ukm, mahasiswa, sengkang, wajo, kajian, ilmiah, tulisan, artikel, puisi, pemikiran, peradaban",
+  "loading": "Sedang memuat LKIM IAI Asadiyah Web App",
+  "version": "Versi 1.0.0 release",
+  "design": "Design by ",
+  "by": "@kurnhyalcantara24",
+  "logIn": "Login",
+  "signUp": "Buat Akun",
+  "infoKegiatan": "Info Kegiatan",
+  "registerNewAccount": "Buat Akun Baru",
+  "share": "Bagikan",
+  "followOur": "Follow our",
+  "followUs": "Follow Akun",
+  "emailUs": "Email kami",
+  "subscribe": "Subscribe",
+  "buyTicket": "Buy ticket",
+  "signOut": "Sign out",
+  "cancel": "Batal",
+  "offlineMessage": "Anda masih mengakses web ini meskipun offline",
+  "cachingComplete": "Caching selesai! anda bisa menginstall web app ini di bagian menu.",
+  "newVersionAvailable": "Versi terbaru aplikasi ini telah tersedia.",
+  "refresh": "Refresh",
+  "position": "Posisi",
+  "country": "Negara",
+  "tanggal": "Tanggal",
+  "timezoneOffset": "-180",
+  "notifications": {
+    "default": "Dapatkan berita dan update kegiatan terbaru dari kami",
+    "enabled": "Terima kasih telah mengaktifkan notifikasi Web App kami",
+    "blocked": "Kami tidak bisa mengirimkan pemberitahuan, Aktifkan pemberitahuan di browser anda",
+    "subscribe": "Subscribe",
+    "unsubscribe": "Unsubscribe",
+    "enable": {
+      "label": "Aktifkan",
+      "link": "https://support.google.com/chrome/answer/3220216"
+    },
+    "toast": {
+      "title": "Buka"
+    },
+    "icon": "https://firebasestorage.googleapis.com/v0/b/lkim-asadiyah.appspot.com/o/logo%2Ficon-144.png?alt=media&token=d7217861-d044-40ee-a771-7595ed7ac790"
+  },
+  "aboutBlock": {
+    "title": "Apa itu LKIM?",
+    "callToAction": {
+      "profilOrganisasi": {
+        "brief": "Lembaga Kajian Ilmiah Mahasiswa (LKIM) IAI As'adiyah merupakah salah satu UKM (Unit Kegiatan Mahasiswa) yang berada di Institut Agama Islam As'adiyah Sengkang. UKM ini dibentuk sebagai wadah pengembangan nalar dan penelitian ilmiah mahasiswa sebagai insan akademis."
+      },
+      "agendaKegiatan": {
+        "description": "LKIM sebagaimana maksud dan tujuan dibentuknya menaungi beberapa kegiatan dalam ruang lingkup bidang ilmiah.",
+        "label": "Daftar kegiatan",
+        "link": "/schedule/"
+      }
+    },
+    "logo": {
+      "image": "images/manifest/icon-192.png",
+      "description": "Logo LKIM"
+    }
+  },
+  "pengurusBlock": {
+    "title": "Pengurus",
+    "callToAction": {
+      "label": "Lihat semua pengurus",
+      "link": "/pengurus/"
+    }
+  },
+  "galleryBlock": {
+    "title": "Galeri Kegiatan",
+    "description": "Eksplor galeri kegiatan dan agenda LKIM IAI Asadiyah",
+    "callToAction": {
+      "label": "Lihat semua foto",
+      "link": "https://photos.app.goo.gl/YSoMosFvKyYCLx4X9"
+    }
+  },
+  "latestPostsBlock": {
+    "title": "Berita Terbaru",
+    "callToAction": {
+      "label": "Lihat semua berita",
+      "link": "/news/"
+    }
+  },
+  "articleLatestBlock": {
+    "title": "Artikel & Opini",
+    "callToAction": {
+      "label": "Lihat semua tulisan",
+      "link": "/articles/"
+    }
+  },
+  "featuredVideos": {
+    "title": "Video",
+    "callToAction": {
+      "label": "Lihat semua video",
+      "link": "https://www.youtube.com/channel/UC6Yi3Z6frhtW2SnbWo83Nxg"
+    }
+  },
+  "footerRelBlock": [
+    {
+      "title": "Link terkait",
+      "links": [
+        {
+          "name": "IAI Asadiyah",
+          "url": "http://iaiasadiyah.ac.id/",
+          "newTab": true
+        },
+        {
+          "name": "PMB Asadiyah",
+          "url": "https://pmb.iaiasadiyahsengkang.ac.id/",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "Layanan",
+      "links": [
+        {
+          "name": "Kepustakaan",
+          "url": "/library",
+          "newTab": true
+        },
+        {
+          "name": "Surat Edaran",
+          "url": "/announcement",
+          "newTab": true
+        },
+        {
+          "name": "Resources",
+          "url": "/resources",
+          "newTab": true
+        }
+      ]
+    }
+  ],
+  "allSchedule": {
+    "title": "Semua Jadwal"
+  },
+  "subscribeNote": "Dapatkan info terbaru dari kami melalui email",
+  "news": {
+    "published": "Dipublikasikan",
+    "suggested": "Berita Lainnya"
+  },
+  "article": {
+    "published": "Dipublikasikan",
+    "suggested": "Artikel Lainnya"
+  },
+  "mapBlock": {
+    "title": "Alamat"
+  },
+  "subscribeBlock": {
+    "callToAction": {
+      "description": "Dapatkan pemberitahuan dan update terbaru tentang kegiatan kami",
+      "label": "Subscribe"
+    },
+    "yourEmail": "Email anda",
+    "emailAddress": "Email Address",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "formTitle": "Get the latest updates, insights and news about GDG DevFest Ukraine sent to your inbox.",
+    "emailRequired": "Masukkan email yang valid",
+    "subscribe": "Subscribe",
+    "subscribed": "Subscribed",
+    "close": "Close",
+    "generalError": "An error has occurred. Please, try again later.",
+    "toast": "Successfully subscribed!"
+  },
+  "schedule": {
+    "registerSchedule": "Saya ingin ikuti kegiatan ini"
+  },
+  "session": {
+    "pendaftaran": "Pendaftaran",
+    "untilRegistration": "s/d",
+    "kategori": "Kategori"
+  },
+  "feedback": {
+    "save": "Save",
+    "headline": "Review session",
+    "leaveFeedback": "to leave feedback",
+    "sendFeedbackSignedOut": "Sign in to leave feedback",
+    "feedbackRecorded": "Your saved",
+    "feedbackDeleted": "Feedback deleted",
+    "helperText": "Comments will be anonymously provided to speakers",
+    "somethingWentWrong": "Something went wrong",
+    "contentCaption": "Content quality",
+    "styleCaption": "Presentation style",
+    "deleteFeedback": "Delete",
+    "sessionClosed": "Session reviews are not open"
+  },
+  "sessionDetails": {
+    "pesertaKegiatan": "Peserta",
+    "detail": "Detail Kegiatan",
+    "printRegistCard": "Cetak Kartu Pendaftaran"
+  },
+  "filters": {
+    "title": "Filter",
+    "results": "Hasil",
+    "tags": "Jenis",
+    "partisipants": "Peserta",
+    "clear": "Hapus semua"
+  },
+
+  "daftarProviders": {
+    "logo": "/images/manifest/icon-114.png",
+    "header": "Buat Akun Baru",
+    "info": "Silahkan buat akun baru untuk bisa login dan melanjutkan proses pendaftaran kegiatan",
+    "title": {
+      "informasidiri": {
+        "icon": "account-circle",
+        "label": "Informasi Diri"
+      },
+      "jenjangStudi": {
+        "icon": "work",
+        "label": "Jenjang Studi Terakhir"
+      },
+      "infoAkun": {
+        "icon": "extension",
+        "label": "Pengaturan Akun"
+      }
+    },
+    "input": {
+      "fullName": {
+        "label": "Nama Lengkap",
+        "placeholder": "Masukkan nama lengkap"
+      },
+      "jenisKelamin": {
+        "placeholder": "Jenis Kelamin",
+        "value": {
+          "pria": "Pria",
+          "wanita": "Wanita"
+        }
+      },
+      "tanggalLahir": {
+        "label": "Tanggal Lahir",
+        "initial": "2003-12-31"
+      },
+      "tempatLahir": {
+        "label": "Tempat Lahir",
+        "placeholder": "Masukkan tempat lahir"
+      },
+      "alamatSekarang": {
+        "label": "Alamat Sekarang",
+        "placeholder": "Masukkan alamat saat ini"
+      },
+      "noWa": {
+        "label": "Nomor Whatsapp",
+        "placeholder": "cth: 08123456790"
+      },
+      "instagram": {
+        "label": "ID Instagram",
+        "placeholder": "cth: @lkimasadiyah"
+      },
+      "fakultas": {
+        "placeholder": "Fakultas",
+        "value": {
+          "ftk": "Fakultas Tarbiyah dan Keguruan",
+          "fudk": "Fakultas Ushuluddin Dakwah dan Komunikasi",
+          "fsh": "Fakultas Syariah dan Hukum"
+        }
+      },
+      "jurusan": {
+        "placeholder": "Program Studi",
+        "value": {
+          "pai": "Pendidikan Agama Islam",
+          "tbi": "Tadris Bahasa Inggris",
+          "afi": "Aqidah dan Filsafat Islam",
+          "as": "Ahwalusy Syakhsiyyah",
+          "hes": "Hukum Ekonomi Syariah"
+        }
+      },
+      "semester": {
+        "placeholder": "Semester saat ini",
+        "label": "Semester"
+      },
+      "email": {
+        "label": "Email*",
+        "placeholder": "Masukkan email yang aktif",
+        "errorOccured": "Email sudah digunakan pengguna lain"
+      },
+      "password": {
+        "label": "Password*",
+        "placeholder": "Minimal 6 karakter",
+        "errorOccured": "Password anda kurang dari 6 karakter"
+      }
+    },
+    "cancel": "Batal",
+    "submit": "Buat Akun",
+    "generalError": "Terjadi masalah, harap coba lagi nanti :(",
+    "success": "Pembuatan akun berhasil dan telah login otomatis, silahkan lanjutkan pendaftaran kegiatan pada menu agenda"
+  },
+
+  "signInProviders": {
+    "logo": "/images/manifest/icon-114.png",
+    "title": "Login Portal Aktivis",
+    "input": {
+      "email": "Email",
+      "password": "Kata Sandi"
+    },
+    "actions": {
+      "login": "Login",
+      "newRegister": "Buat akun baru"
+    },
+    "info": {
+      "p1": "Belum punya akun?"
+    },
+    "description": "Login dan anda dapat mengatur jadwal dan agenda yang anda ingin ikuti dan dapatkan pemberitahuannya",
+    "providersData": {
+      "name": "google",
+      "label": "Login dengan akun google",
+      "url": "https://accounts.google.com"
+    },
+    "allowedProvidersUrl": "https://accounts.google.com",
+    "successSignedIn": "Login Sukses :)"
+  },
+
+  "profile": {
+    "profileImage": "https://firebasestorage.googleapis.com/v0/b/lkim-asadiyah.appspot.com/o/people%2Ficon.png?alt=media&token=adad3f19-fc47-4915-80e5-86e5d7d10e05",
+    "actions": {
+      "changeData": "Ubah Data",
+      "changePassword": "Ganti Password",
+      "logout": "Keluar"
+    }
+  },
+
+  "changePassword": {
+    "title": "Ubah Password",
+    "input": {
+      "oldPasswordLabel": "Password Lama",
+      "newPasswordLabel": "Password Baru",
+      "newPasswordPlaceholder": "Minimal 6 karakter",
+      "repeatPasswordLabel": "Ulangi Password Baru"
+    },
+    "action": {
+      "submit": "Simpan"
+    }
+  },
+
+  "editDataProviders": {
+    "title": "Edit Data Profil",
+    "action": {
+      "submit": "Simpan"
+    }
+  },
+
+  "forgotPasswordDialog": {
+    "title": "Lupa Password?",
+    "info": "Untuk mendapatkan password baru, masukkan email yang Anda gunakan saat pendaftaran akun",
+    "submit": "Ubah Password",
+    "yourEmail": "Email anda",
+    "successInfo": "Periksa email Anda dan ikuti petunjuk untuk mengubah password yang terdaftar didalamnya."
+  },
+
+  "printForm": {
+    "headerLogo": "https://firebasestorage.googleapis.com/v0/b/lkim-asadiyah.appspot.com/o/logo%2Ficon-144.png?alt=media&token=d7217861-d044-40ee-a771-7595ed7ac790",
+    "headerTitle": "Kartu Informasi Pendaftaran",
+    "headerSubTitle": "Pelatihan Karya Tulis Ilmiah"
+  },
+
+  "addToHomeScreen": {
+    "cta": "Install LKIM IAI Asadiyah",
+    "installed": "LKIM Asadiyah telah terpasang"
+  }
+}

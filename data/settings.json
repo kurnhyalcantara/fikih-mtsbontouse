@@ -1,0 +1,178 @@
+{
+  "organizer": {
+    "name": "LKIM Asadiyah",
+    "twitter": "lkimasadiyah",
+    "url": "http://lkim-asadiyah.web.app"
+  },
+  "webapp": {
+    "shortName": "LKIM",
+    "themeColor": "#25AFF3",
+    "backgroundColor": "#25AFF3"
+  },
+  "dateFormat": {
+    "locale": "id-ID"
+  },
+  "toolbarLogo": "https://firebasestorage.googleapis.com/v0/b/lkim-asadiyah.appspot.com/o/logo%2Ficon-144.png?alt=media&token=d7217861-d044-40ee-a771-7595ed7ac790",
+  "hashtag": "LkimAsadiyah",
+  "disabledSchedule": false,
+  "navigation": [
+    {
+      "route": "home",
+      "permalink": "/",
+      "label": "Home",
+      "icon": "home"
+    },
+    {
+      "route": "pengurus",
+      "permalink": "/pengurus/",
+      "label": "Pengurus",
+      "icon": "assignment-ind"
+    },
+    {
+      "route": "news",
+      "permalink": "/news/",
+      "label": "Berita",
+      "icon": "chrome-reader-mode"
+    },
+    {
+      "route": "article",
+      "permalink": "/articles/",
+      "label": "Artikel",
+      "icon": "book"
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/",
+      "label": "Agenda",
+      "icon": "date-range"
+    }
+  ],
+  "heroSettings": {
+    "home": {
+      "description1": "Selamat Datang di Portal",
+      "description2": "LKIM IAI Asadiyah Web App",
+      "background": {
+        "color": "#FFF"
+      },
+      "fontColor": "#424242"
+    },
+    "pengurus": {
+      "title": "Pengurus",
+      "metaDescription": "Mengenal lebih dekat profil Pengurus Lembaga Kajian Ilmiah Mahasiswa (LKIM) IAI Asadiyah masa khidmat 2021-2022",
+      "description": "Mengenal lebih dekat profil Pengurus Lembaga Kajian Ilmiah Mahasiswa (LKIM) IAI Asadiyah masa khidmat 2021-2022",
+      "background": {
+        "color": "#FFF",
+        "image": "/images/backgrounds/bg1.svg"
+      },
+      "fontColor": "#424242"
+    },
+    "news": {
+      "title": "Berita",
+      "metaDescription": "Berita agenda dan cerita terbaru LKIM IAI As'adiyah",
+      "description": "Berita agenda dan cerita terbaru LKIM IAI As'adiyah",
+      "background": {
+        "color": "#FFF",
+        "image": "/images/backgrounds/bg1.svg"
+      },
+      "fontColor": "#424242"
+    },
+    "article": {
+      "title": "Artikel",
+      "metaDescription": "Berbagai tulisan berupa artikel dan opini karya anggota dan pengurus LKIM IAI Asadiyah",
+      "description": "Berbagai tulisan berupa artikel dan opini karya anggota dan pengurus LKIM IAI Asadiyah",
+      "background": {
+        "color": "#FFF",
+        "image": "/images/backgrounds/bg1.svg"
+      },
+      "fontColor": "#424242"
+    },
+    "schedule": {
+      "title": "Agenda",
+      "metaDescription": "Daftar agenda kegiatan pengurus LKIM IAI Asadiyah masa khidmat 2021-2022",
+      "description": "Daftar agenda kegiatan pengurus LKIM IAI Asadiyah masa khidmat 2021-2022",
+      "background": {
+        "color": "#fff",
+        "image": "/images/backgrounds/bg1.svg"
+      },
+      "fontColor": "#424242"
+    }
+  },
+  "socialNetwork": {
+    "follow": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/lkimasadiyahsengkang/"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/lkim.iaiasadiyah"
+      },
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UC6Yi3Z6frhtW2SnbWo83Nxg/"
+      }
+    ],
+    "share": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/sharer.php?u="
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/intent/tweet?text="
+      }
+    ]
+  },
+  "mailto": "lkimiaiasadiyah@gmail.com",
+  "location": {
+    "label": "Alamat",
+    "name": "Sekretariat DEMA IAI As'adiyah Sengkang",
+    "city": "Siengkang",
+    "short": "Siengkang, Kabupaten Wajo",
+    "address": "Jalan Veteran No.46, Siengkang, Kabupaten Wajo, Sulawesi Selatan",
+    "pointer": {
+      "latitude": -4.127486,
+      "longitude": 120.032045,
+      "zoom": 17
+    },
+    "mapCenter": {
+      "latitude": -4.127,
+      "longitude": 120.032
+    },
+    "description": "Sekretariat Bersama (Sekber) DEMA & UKM Lingkup IAI As'adiyah Sengkang"
+  },
+  "mediaQueries": {
+    "xs": {
+      "max": "639px"
+    },
+    "sm": {
+      "min": "640px",
+      "max": "811px"
+    },
+    "md": {
+      "min": "812px",
+      "max": "1023px"
+    },
+    "lg": {
+      "min": "1024px"
+    }
+  },
+  "contentLoaders": {
+    "schedule": {
+      "itemsCount": 2
+    },
+    "news": {
+      "itemsCount": 3
+    },
+    "article": {
+      "itemsCount": 3
+    },
+    "pengurus": {
+      "itemsCount": 4
+    }
+  },
+  "pathContent": {
+    "news": "Berita > ",
+    "articles": "Artikel >"
+  }
+}
