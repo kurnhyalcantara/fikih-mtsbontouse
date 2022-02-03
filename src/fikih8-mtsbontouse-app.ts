@@ -73,8 +73,8 @@ if (location.hostname === 'localhost') {
   setLegacyWarnings(true);
 }
 
-@customElement('lkim-app')
-export class LkimApp extends ReduxMixin(PolymerElement) {
+@customElement('fikih8-mtsbontouse-app')
+export class Fikih8MtsBontouseApp extends ReduxMixin(PolymerElement) {
   static get template() {
     return html`
       <style include="shared-styles flex flex-reverse flex-alignment positioning">
@@ -462,7 +462,7 @@ export class LkimApp extends ReduxMixin(PolymerElement) {
 
   constructor() {
     super();
-    window.performance && performance.mark && performance.mark('lkim-app.created');
+    window.performance && performance.mark && performance.mark('fikih8-mtsbontouse-app.created');
     this._toggleHeaderShadow = this._toggleHeaderShadow.bind(this);
     this._toggleDrawer = this._toggleDrawer.bind(this);
 
