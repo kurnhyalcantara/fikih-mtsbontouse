@@ -117,7 +117,7 @@ export class HeaderBottomToolbar extends ReduxMixin(PolymerElement) {
 
   connectedCallback() {
     super.connectedCallback();
-    (window as TempAny).LKIMAPP.Elements.StickyHeaderToolbar = this;
+    (window as TempAny).FIKIH8MTSBONTOUSE.Elements.StickyHeaderToolbar = this;
   }
 
   @computed('schedule')

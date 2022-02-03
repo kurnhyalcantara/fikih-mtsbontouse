@@ -240,7 +240,7 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
 
   connectedCallback() {
     super.connectedCallback();
-    (window as TempAny).LKIMAPP.Elements.HeaderToolbar = this;
+    (window as TempAny).FIKIH8MTSBONTOUSE.Elements.HeaderToolbar = this;
     this._onScroll = this._onScroll.bind(this);
     window.addEventListener('scroll', this._onScroll);
     this._onScroll();

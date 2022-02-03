@@ -111,7 +111,7 @@ export class AllSchedule extends ReduxMixin(PolymerElement) {
       const selectedTime = window.location.hash.slice(1);
       if (selectedTime) {
         requestAnimationFrame(() => {
-          const Elements = (window as TempAny).LKIMAPP.Elements;
+          const Elements = (window as TempAny).FIKIH8MTSBONTOUSE.Elements;
           const targetElement = this.shadowRoot.querySelector(`[id="${selectedTime}"]`);
           const offset = offsetTop(targetElement);
           const toolbarHeight = Elements.HeaderToolbar.getBoundingClientRect().height - 1;
