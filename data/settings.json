@@ -6,8 +6,8 @@
   },
   "webapp": {
     "shortName": "Fikih 8 MTs",
-    "themeColor": "#25AFF3",
-    "backgroundColor": "#25AFF3"
+    "themeColor": "#006f59",
+    "backgroundColor": "#006f59"
   },
   "dateFormat": {
     "locale": "id-ID"

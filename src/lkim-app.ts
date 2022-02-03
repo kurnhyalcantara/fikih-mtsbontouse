@@ -161,7 +161,7 @@ export class LkimApp extends ReduxMixin(PolymerElement) {
 
         .drawer-list {
           padding: 16px 0;
-          margin: 0
+          margin: 0;
           display: block;
         }
 
@@ -210,7 +210,6 @@ export class LkimApp extends ReduxMixin(PolymerElement) {
         .profile-name {
           font-size: 14px;
         }
-
 
         @media (min-width: 640px) {
           app-toolbar {
