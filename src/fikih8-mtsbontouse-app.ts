@@ -90,26 +90,30 @@ export class Fikih8MtsBontouseApp extends ReduxMixin(PolymerElement) {
           }
         }
 
-        app-drawer app-toolbar {
-          padding: 36px 24px 24px;
-        }
-
         app-toolbar {
-          height: auto;
+          height: 187px;
           background-image: url('/images/toolbar.png');
           background-size: cover;
           background-repeat: no-repeat;
         }
 
-        app-drawer .version {
-          font-size: 14px;
-          margin-top: 42px;
+        app-toolbar .toolbar-logo {
+          margin: 8px 0;
         }
 
-        app-drawer .design {
-          margin-top: 4px;
-          font-size: 12px;
-          color: var(--secondary-text-color);
+        app-drawer .title {
+          font-size: 16px;
+          font-weight: 800;
+          color: var(--text-primary-color);
+        }
+
+        app-drawer .version {
+          font-size: 14px;
+          color: var(--text-secondary-color);
+        }
+
+        app-drawer a {
+          padding: 8px 24px;
         }
 
         .design .by {
@@ -243,26 +247,12 @@ export class Fikih8MtsBontouseApp extends ReduxMixin(PolymerElement) {
           <app-toolbar layout vertical center>
             <plastic-image
               class="toolbar-logo"
-              srcset="{$ toolbarLogo $}"
+              srcset="/images/manifest/icon-96x96.png"
               alt="{$ title $}"
             ></plastic-image>
+            <div class="title">{$ title $}</div>
             <div class="version">{$ version $}</div>
-            <div class="design">
-              {$ design $}<span class="by" on-tap="_openInstaDesigner">{$ by $}</span>
-            </div>
           </app-toolbar>
-          <div class="drawer-account" layout horizontal hidden$="[[credential.signedIn]]">
-            <div class="action-account" on-click="_openSignUpDialog">{$ signUp $}</div>
-            <div class="action-account" on-click="_openSignInDialog">{$ logIn $}</div>
-          </div>
-          <div
-            class="drawer-signedin"
-            on-click="_openProfileDialog"
-            hidden$="[[!credential.signedIn]]"
-          >
-            <iron-icon class="profile-icon" icon="lkim:account"></iron-icon>
-            <span class="profile-name">Hai! [[user.nama_lengkap]]</span>
-          </div>
           <div class="drawer-content" layout vertical justified flex>
             <iron-selector
               class="drawer-list"

@@ -7,10 +7,11 @@ export const theme = css`
     --focused-color: #0b86c1;
     --light-primary-color: #96d9fa;
     --text-primary-color: #ffffff;
+    --text-secondary-color: #f7f7f7;
     --accent-color: #e91da2;
     --primary-background-color: #ffffff;
     --primary-text-color: #424242;
-    --secondary-text-color: #757575;
+    --secondary-text-color: #cacaca;
     --disabled-text-color: #bdbdbd;
     --divider-color: #ededed;
     --footer-background-color: #f5f5f5;
