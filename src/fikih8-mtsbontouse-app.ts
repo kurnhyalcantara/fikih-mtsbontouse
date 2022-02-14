@@ -92,15 +92,13 @@ export class Fikih8MtsBontouseApp extends ReduxMixin(PolymerElement) {
 
         app-drawer app-toolbar {
           padding: 36px 24px 24px;
-          border-bottom: 1px solid var(--divider-color);
-        }
-
-        app-drawer a {
-          padding: 8px 24px;
         }
 
         app-toolbar {
           height: auto;
+          background-image: url('/images/toolbar.png');
+          background-size: cover;
+          background-repeat: no-repeat;
         }
 
         app-drawer .version {
@@ -242,7 +240,7 @@ export class Fikih8MtsBontouseApp extends ReduxMixin(PolymerElement) {
 
       <app-drawer-layout drawer-width="300px" force-narrow fullbleed>
         <app-drawer id="drawer" slot="drawer" opened="{{drawerOpened}}" swipe-open>
-          <app-toolbar layout vertical start>
+          <app-toolbar layout vertical center>
             <plastic-image
               class="toolbar-logo"
               srcset="{$ toolbarLogo $}"
