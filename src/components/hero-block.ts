@@ -83,6 +83,10 @@ export class HeroBlock extends ThemedElement {
             padding-top: 120px;
             padding-bottom: 60px;
           }
+
+          .container {
+            width: 75%;
+          }
         }
       `,
     ];
@@ -93,7 +97,7 @@ export class HeroBlock extends ThemedElement {
       <div class="hero-block" style="${styleMap({ color: this.fontColor })}" layout start vertical>
         ${this.backgroundImage && this.image}
         <div class="container">
-          <div class="hero-content" layout horizontal center-justified wrap>
+          <div class="hero-content" layout horizontal wrap>
             <slot></slot>
           </div>
         </div>

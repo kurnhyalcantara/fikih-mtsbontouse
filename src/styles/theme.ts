@@ -37,8 +37,8 @@ export const theme = css`
       0 3px 4px 0 rgba(37, 175, 243, 0.3), 0 1px 8px 0 rgba(37, 175, 243, 0.3);
     --box-shadow-primary-color-hover: 0 1px 3px -2px rgba(37, 175, 243, 0.4),
       0 4px 5px 0 rgba(37, 175, 243, 0.4), 0 2px 9px 0 rgba(37, 175, 243, 0.4);
-    --font-family: -apple-system, BlinkMacSystemFont, 'Fira Sans', Roboto, Helvetica, Arial,
-      sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    --font-family: -apple-system, BlinkMacSystemFont, 'Rubik', Roboto, Helvetica, Arial, sans-serif,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     --max-container-width: 1280px;
 
     --primary-color-transparent: rgba(0, 111, 89, 0.1);
@@ -105,10 +105,11 @@ export const theme = css`
 
   paper-button {
     padding: 0.7em;
-    border-radius: var(--border-radius);
+    border-radius: 50px;
     font-size: 14px;
     font-family: var(--font-family);
-    font-weight: 600;
+    font-weight: 800;
+    text-transform: capitalize;
     color: var(--default-primary-color);
     transition: background-color var(--animation);
   }
@@ -148,7 +149,8 @@ export const theme = css`
   }
 
   paper-button[primary][stroke]:hover {
-    background-color: var(--primary-color-white);
+    border: 5px solid inherit;
+    transition: border var(--animation);
   }
 
   paper-button[primary-text] {
