@@ -40,6 +40,7 @@
       "description1": "Selamat Datang di Portal",
       "description2": "LKIM IAI Asadiyah Web App",
       "background": {
+        "image": "/images/hero-banner.png",
         "color": "#FFF"
       },
       "fontColor": "#424242"

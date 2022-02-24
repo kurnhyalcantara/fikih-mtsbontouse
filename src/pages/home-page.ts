@@ -2,6 +2,7 @@ import { customElement, property } from '@polymer/decorators';
 import '@polymer/iron-icon';
 import { html, PolymerElement } from '@polymer/polymer';
 import '../components/about-block';
+import '../components/hero-block';
 import '../elements/pengurus-block';
 import '../elements/gallery-block';
 import '../elements/news-posts-block';
@@ -130,6 +131,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
       <hero-block
         id="hero"
+        background-image="{$ heroSettings.home.background.image $}"
         background-color="{$ heroSettings.home.background.color $}"
         font-color="{$ heroSettings.home.fontColor $}"
         active="[[active]]"

@@ -47,7 +47,7 @@ export class HeroBlock extends ThemedElement {
         .hero-image {
           transition: background-color 0.3s;
           position: absolute;
-          --lazy-image-fit: cover;
+          --lazy-image-fit: 100% 100%;
         }
 
         .container {
