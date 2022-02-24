@@ -31,6 +31,7 @@ export class HeroBlock extends ThemedElement {
           height: 100%;
           position: relative;
           color: inherit;
+          padding-top: 56px;
         }
 
         .hero-overlay {
@@ -89,17 +90,10 @@ export class HeroBlock extends ThemedElement {
 
   render() {
     return html`
-      <div
-        class="hero-block"
-        style="${styleMap({ color: this.fontColor })}"
-        layout
-        start
-        vertical
-        center-justified
-      >
+      <div class="hero-block" style="${styleMap({ color: this.fontColor })}" layout start vertical>
         ${this.backgroundImage && this.image}
         <div class="container">
-          <div class="hero-content">
+          <div class="hero-content" layout horizontal center-justified wrap>
             <slot></slot>
           </div>
         </div>

@@ -37,13 +37,13 @@
   ],
   "heroSettings": {
     "home": {
-      "description1": "Selamat Datang di Portal",
-      "description2": "LKIM IAI Asadiyah Web App",
+      "title": "Solusi Pembelajaran Blended Fikih Kelas 8 MTs Bontouse",
+      "description": "Modul pembelajaran berbasis Progressive Web Apps untuk siswa kelas 8 Madrasah Tsanawiyah",
       "background": {
         "image": "/images/hero-banner.png",
         "color": "#FFF"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "pengurus": {
       "title": "Pengurus",

@@ -26,24 +26,14 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           height: 100%;
         }
 
-        hero-block {
-          font-size: 24px;
-          text-align: center;
-        }
-
         .hero-logo {
           width: 100%;
           height: 100%;
         }
 
-        .info-items {
-          margin: 24px auto;
-          font-size: 22px;
-          font-weight: 600;
-        }
-
-        .info-items > *:not(:first-of-type) {
-          color: var(--default-primary-color);
+        .info-title {
+          font-size: 28px;
+          font-weight: 800;
         }
 
         .action-buttons {
@@ -120,9 +110,8 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             max-width: 320px;
           }
 
-          .info-items {
-            margin: 24px auto;
-            font-size: 28px;
+          .info-title {
+            font-size: 32px;
           }
         }
       </style>
@@ -137,15 +126,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         active="[[active]]"
         hide-logo
       >
-        <div class="home-content" layout vertical center>
-          <plastic-image
-            class="hero-logo"
-            srcset="/images/home.svg"
-            alt="{$ title $}"
-          ></plastic-image>
+        <div class="home-content" layout vertical start-justified>
           <div class="info-items">
-            <div class="info-item">{$ heroSettings.home.description1 $}</div>
-            <div class="info-item">{$ heroSettings.home.description2 $}</div>
+            <div class="info-title">{$ heroSettings.home.title $}</div>
+            <div class="info-description">{$ heroSettings.home.description $}</div>
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
