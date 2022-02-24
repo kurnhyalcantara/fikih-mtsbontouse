@@ -19,32 +19,20 @@
     {
       "route": "home",
       "permalink": "/",
-      "label": "Home",
+      "label": "Landing Page",
       "icon": "home"
     },
     {
       "route": "pengurus",
       "permalink": "/pengurus/",
-      "label": "Pengurus",
-      "icon": "assignment-ind"
+      "label": "Profile Creator",
+      "icon": "face"
     },
     {
       "route": "news",
       "permalink": "/news/",
-      "label": "Berita",
+      "label": "Blog",
       "icon": "chrome-reader-mode"
-    },
-    {
-      "route": "article",
-      "permalink": "/articles/",
-      "label": "Artikel",
-      "icon": "book"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/",
-      "label": "Agenda",
-      "icon": "date-range"
     }
   ],
   "heroSettings": {

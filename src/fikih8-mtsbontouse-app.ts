@@ -116,53 +116,13 @@ export class Fikih8MtsBontouseApp extends ReduxMixin(PolymerElement) {
           padding: 8px 24px;
         }
 
-        .design .by {
-          color: var(--default-primary-color);
-        }
-
-        .drawer-account .action-account {
-          width: 50%;
-          padding: 12px;
-        }
-
-        .action-account {
-          text-align: center;
-          color: var(--text-primary-color);
-          background-color: var(--default-primary-color);
-        }
-
-        .action-account:hover {
-          background-color: var(--primary-color-light);
-        }
-
-        .drawer-signedin {
-          width: 100%;
-          padding: 8px 16px;
-          background-color: var(--default-primary-color);
-          color: var(--text-primary-color);
-        }
-
-        .drawer-signedin:hover {
-          background-color: var(--primary-color-light);
-        }
-
-        .profile-icon {
-          --iron-icon-width: 24px;
-          --iron-icon-heigth: 24px;
-          margin-right: 12px;
-        }
-
-        .action-account:not(:last-of-type) {
-          border-right: 1px solid #fff;
-        }
-
         .drawer-content iron-icon {
           --iron-icon-width: 24px;
           margin-right: 24px;
         }
 
         .drawer-list {
-          padding: 16px 0;
+          padding: 22px 0;
           margin: 0;
           display: block;
         }
@@ -170,16 +130,16 @@ export class Fikih8MtsBontouseApp extends ReduxMixin(PolymerElement) {
         .drawer-list a {
           display: block;
           color: var(--primary-text-color);
+          font-weight: 800;
           outline: 0;
+          border-radius: 10px;
+          margin: 16px;
         }
 
         .drawer-list a.selected {
           color: var(--default-primary-color);
           background-color: var(--primary-color-transparent);
           --iron-icon-fill-color: var(--default-primary-color);
-          border-top-right-radius: 50px;
-          border-bottom-right-radius: 50px;
-          margin-right: 8px;
         }
 
         app-header-layout {
@@ -216,7 +176,6 @@ export class Fikih8MtsBontouseApp extends ReduxMixin(PolymerElement) {
         @media (min-width: 640px) {
           app-toolbar {
             padding: 0 36px;
-            height: initial;
           }
         }
       </style>
@@ -268,13 +227,6 @@ export class Fikih8MtsBontouseApp extends ReduxMixin(PolymerElement) {
               </a>
               {% endfor %}
             </iron-selector>
-
-            <div>
-              <a class="bottom-drawer-link" on-click="_onAddToHomeScreen">
-                <iron-icon icon="icons:add-box"></iron-icon>
-                <span>{$ addToHomeScreen.cta $}</span>
-              </a>
-            </div>
           </div>
         </app-drawer>
 

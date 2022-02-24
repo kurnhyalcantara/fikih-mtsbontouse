@@ -22,11 +22,10 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           --iron-icon-fill-color: currentColor;
           display: block;
           z-index: 1;
-          background-color: var(--primary-background-color);
+          background-color: var(--dark-primary-color);
           transition: background-color var(--animation), border-bottom-color var(--animation),
             color var(--animation);
-          color: var(--primary-text-color);
-          box-shadow: var(--box-shadow-header);
+          color: var(--text-primary-color);
         }
 
         app-toolbar {
@@ -34,16 +33,6 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           padding: 0 16px;
           height: auto;
           max-width: var(--max-container-width);
-        }
-
-        .toolbar-logo {
-          margin: 0 12px 0 8px;
-          z-index: 1;
-        }
-
-        .toolbar-title {
-          color: var(--default-primary-color);
-          font-weight: 600;
         }
 
         .nav-items {
@@ -117,12 +106,8 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
 
         @media (min-width: 640px) {
           app-toolbar {
-            padding: 0 36px;
+            padding: 0 24px;
             height: initial;
-          }
-
-          .toolbar-title {
-            font-size: 16px;
           }
         }
       </style>
@@ -131,19 +116,12 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
         <div layout horizontal center flex>
           <paper-icon-button
             icon="lkim:menu"
-            hidden$="[[viewport.isLaptopPlus]]"
             aria-label="menu"
             on-click="openDrawer"
           ></paper-icon-button>
-          <plastic-image
-            class="toolbar-logo"
-            srcset="/images/logo.png"
-            alt="{$ title $}"
-          ></plastic-image>
-          <a class="toolbar-title" href="/" layout horizontal>{$ title $}</a>
         </div>
 
-        <paper-tabs
+        <!-- <paper-tabs
           class="nav-items"
           selected="[[route.route]]"
           attr-for-selected="name"
@@ -160,7 +138,7 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           <a on-click="_signIn" link hidden$="[[credential.signedIn]]">
             <paper-button class="login-button" primary>{$ logIn $}</paper-button>
           </a>
-        </paper-tabs>
+        </paper-tabs> -->
 
         <paper-menu-button
           id="notificationsMenu"
@@ -203,11 +181,11 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           </div>
         </paper-menu-button>
 
-        <paper-icon-button
+        <!-- <paper-icon-button
           icon="lkim:account"
           on-click="_openDialogProfile"
           hidden$="[[viewport.isPhone]]"
-        ></paper-icon-button>
+        ></paper-icon-button> -->
       </app-toolbar>
     `;
   }
