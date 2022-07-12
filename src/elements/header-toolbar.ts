@@ -22,10 +22,11 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           --iron-icon-fill-color: currentColor;
           display: block;
           z-index: 1;
-          background-color: var(--dark-primary-color);
+          background-color: var(--primary-background-color);
           transition: background-color var(--animation), border-bottom-color var(--animation),
             color var(--animation);
-          color: var(--text-primary-color);
+          color: var(--default-primary-color);
+          box-shadow: var(--box-shadow-header);
         }
 
         app-toolbar {
