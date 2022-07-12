@@ -3,7 +3,7 @@ import { PaperMenuButton } from '@polymer/paper-menu-button';
 import { html, PolymerElement } from '@polymer/polymer';
 import { ReduxMixin } from '../mixins/redux-mixin';
 import { RootState, store } from '../store';
-import { closeDialog, openDialog } from '../store/dialogs/actions';
+import { closeDialog } from '../store/dialogs/actions';
 import { initialDialogState } from '../store/dialogs/state';
 import { DIALOGS } from '../store/dialogs/types';
 import { requestPermission, unsubscribe } from '../store/notifications/actions';
@@ -36,32 +36,6 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           max-width: var(--max-container-width);
         }
 
-        .nav-items {
-          --paper-tabs-selection-bar-color: var(--default-primary-color);
-          --paper-tabs: {
-            height: 64px;
-          }
-        }
-
-        .nav-item a {
-          padding: 0 14px;
-          color: inherit;
-          text-transform: uppercase;
-        }
-
-        .login-button {
-          margin-top: 12px;
-          padding: 10px 24px;
-        }
-
-        .profile-image {
-          width: 32px;
-          height: 32px;
-          border-radius: 50%;
-          background-position: center;
-          background-size: cover;
-        }
-
         .dropdown-panel {
           padding: 24px;
           max-width: 300px;
@@ -76,28 +50,6 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
 
         .dropdown-panel .panel-actions {
           margin: 0 -16px -16px 0;
-        }
-
-        .profile-details .profile-image {
-          margin-right: 16px;
-          width: 48px;
-          height: 48px;
-        }
-
-        .profile-name,
-        .profile-email {
-          font-size: 14px;
-          display: block;
-          white-space: nowrap;
-          color: var(--secondary-text-color);
-        }
-
-        .profile-action {
-          margin-top: 4px;
-          text-transform: uppercase;
-          color: var(--default-primary-color);
-          font-size: 14px;
-          cursor: pointer;
         }
 
         paper-button iron-icon {
@@ -121,25 +73,6 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             on-click="openDrawer"
           ></paper-icon-button>
         </div>
-
-        <!-- <paper-tabs
-          class="nav-items"
-          selected="[[route.route]]"
-          attr-for-selected="name"
-          hidden$="[[!viewport.isLaptopPlus]]"
-          role="navigation"
-          noink
-        >
-          {% for nav in navigation %}
-          <paper-tab name="{$ nav.route $}" class="nav-item" link>
-            <a href="{$ nav.permalink $}" layout vertical center-center>{$ nav.label $}</a>
-          </paper-tab>
-          {% endfor %}
-
-          <a on-click="_signIn" link hidden$="[[credential.signedIn]]">
-            <paper-button class="login-button" primary>{$ logIn $}</paper-button>
-          </a>
-        </paper-tabs> -->
 
         <paper-menu-button
           id="notificationsMenu"
@@ -181,12 +114,6 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             </div>
           </div>
         </paper-menu-button>
-
-        <!-- <paper-icon-button
-          icon="lkim:account"
-          on-click="_openDialogProfile"
-          hidden$="[[viewport.isPhone]]"
-        ></paper-icon-button> -->
       </app-toolbar>
     `;
   }
@@ -232,17 +159,6 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
 
   openDrawer() {
     this.drawerOpened = true;
-  }
-
-  _openDialogProfile() {
-    if (!this.credential.signedIn) {
-      return;
-    }
-    openDialog(DIALOGS.PROFILE);
-  }
-
-  _signIn() {
-    openDialog(DIALOGS.SIGNIN, { submitLogin: 'Login' });
   }
 
   _onScroll() {

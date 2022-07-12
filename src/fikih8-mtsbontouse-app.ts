@@ -156,23 +156,6 @@ export class Fikih8MtsBontouseApp extends ReduxMixin(PolymerElement) {
           height: 100%;
         }
 
-        .bottom-drawer-link {
-          padding: 16px 24px;
-          font-size: 14px;
-          cursor: pointer;
-          display: block;
-          background-color: var(--default-primary-color);
-          color: var(--text-primary-color);
-        }
-
-        .bottom-drawer-link:hover {
-          background-color: var(--primary-color-light);
-        }
-
-        .profile-name {
-          font-size: 14px;
-        }
-
         @media (min-width: 640px) {
           app-toolbar {
             padding: 0 36px;
